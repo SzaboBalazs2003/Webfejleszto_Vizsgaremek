@@ -1,0 +1,103 @@
+html, body, #app, #app>div {
+    position: absolute;     width: 100% !important;     height: 100% !important;
+}
+
+body{
+    background-color: lightblue;
+    background-attachment: scroll;
+}
+
+.cim{
+    text-align: center;
+    text-decoration: underline;
+}
+.react-calendar__navigation{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+.ures{
+    height: 10vh;
+}
+
+h2{
+    text-align: center;
+}
+
+#szabadIdopontok{
+    margin: 0 auto;
+    max-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.Idogomb{
+    margin: 0 auto;
+    width: 25%;
+}
+
+.react-calendar__month-view__days > button{
+    border: 1px solid black;
+    height: 10vh;
+    width: 10vh;
+}
+
+.react-calendar__month-view__days > button:hover{
+    border: 3px solid black;
+}
+
+.react-calendar__month-view__weekdays{
+    text-align: center;
+}
+
+.react-calendar__viewContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigal{
+    background-color: white;
+}
+
+
+#kartyak{
+    margin: 0 auto;
+    width: 80vw;
+
+}
+
+.cella.Card{
+    height: 100rem;
+    text-align: center;
+    
+}
+
+.cella{
+    text-align: center;
+    padding: 2rem;
+}
+
+.modalTest{
+    text-align: center;
+}
+
+.idopontgomb{
+    margin: 0 auto;
+    
+}
+
+.tartalom{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2rem;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.TorolTarolo{
+    text-align: center;
+}

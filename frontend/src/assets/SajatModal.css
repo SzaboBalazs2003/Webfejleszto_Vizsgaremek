@@ -1,0 +1,36 @@
+#Modal{
+    width: 60%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+
+#ModalTarolo{
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+#ModalTarolo .footer{
+    flex: 20%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    flex: 20%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bezar{
+    margin-left: 80%;
+    width: 20%;
+    justify-content: center;
+}
